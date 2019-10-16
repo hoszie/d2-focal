@@ -20,7 +20,7 @@
 - push array elements to str
 */
 
-const joinList = function(arr) {
+const joinListed = function(arr) {
   let str = '';
   if (arr.length === 0) {
     return "";
@@ -35,6 +35,6 @@ const joinList = function(arr) {
   return res;  
 }
 const conceptList = ["gists", "types", "operators", "iteration", "problem solving"];
-const concepts = joinList(conceptList);
-console.log(joinList([]));
+const concepts = joinListed(conceptList);
+console.log(joinListed([]));
 console.log(`Today I learned about ${concepts}.`);
